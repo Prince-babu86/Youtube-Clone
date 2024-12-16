@@ -1,0 +1,42 @@
+.vdeoitem{
+    width: 350px;
+    height: 320px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.vdeoitem .video{
+    height: 68%;
+    width: 100%;
+}
+
+.vdeoitem .video img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.userinfo img {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+}
+
+.videocontainer::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+@media (max-width:600px){
+   .homecontainer{
+    margin: 0;
+    width: 100%;
+    height: 78vh;
+   }
+   .vdeoitem{
+    width: 100vw;
+   }
+}

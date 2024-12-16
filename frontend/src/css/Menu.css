@@ -1,0 +1,39 @@
+
+
+.MobileMenubar{
+   display: none;
+}
+
+
+@media (max-width:600px){
+   .menubar{
+    display: none;
+   }
+   .MobileMenubar{
+      display: flex;
+      position: fixed;
+      align-items: center;
+      justify-content: space-around;
+      bottom: 0;
+      height: 6.5vh;
+      width: 100%;
+     
+   }
+
+   .MobileMenubar .icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .MobileMenubar .icon .fa-plus{
+      border-radius: 50%;
+     height: 38px;
+     width: 38px;
+      background-color: #1d1d1d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
